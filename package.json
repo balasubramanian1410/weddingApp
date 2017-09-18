@@ -1,0 +1,27 @@
+{
+  "name": "weddingapp",
+  "version": "1.0.0",
+  "description": "marriageapp",
+  "main": "main.js",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "react-dom": "^15.3.2",
+    "webpack": "^1.13.2",
+    "react": "^15.3.2",
+    "babel-loader": "^6.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack -p --progress",
+    "dev": "webpack-dev-server --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "marriage"
+  ],
+  "author": "subbu",
+  "license": "ISC"
+}

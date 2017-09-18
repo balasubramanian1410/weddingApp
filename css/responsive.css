@@ -1,0 +1,132 @@
+@media only screen and (max-width: 600px) {
+
+
+.timeline-panel:before{
+	transform: scaleX(-1);
+	margin-left: -15px;
+	left: 0;
+	right: initial !important;
+}
+
+.timeline > li{
+	width: 100%;
+	margin: 0 !important;
+}
+
+.timeline > li > .timeline-badge{
+	left: 0;
+    margin-left: -30px;
+	top: 40px;
+}
+
+.timeline:before{
+	left: 0;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before{
+	transform: scaleX(1);
+	left: 0;
+}
+.timeline > li.timeline-inverted > .timeline-badge{
+	margin-left: -30px;
+	top: 49px;
+}
+
+.timeline-inverted > .timeline-panel{
+	margin: 24px 24px;
+}
+.timeline-panel-normal{
+	margin: 15px 15px;
+}
+.wed-comsoon-counter{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.countdown{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.countdown > li{
+	margin: 15px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.countdown > li::before{
+	display: none;
+}
+.wed-comsoon-counter > span{
+	width: 50%;
+}
+ul.countdown > li:last-child{
+	border-bottom: none;
+}
+.slick-dots{
+	display: none !important;
+}
+
+}
+@media only screen and (max-width: 990px){
+.event-tabs{
+	flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.event-title{
+	width: 80%;
+}
+.tab-content{
+	width: 80%;
+}
+.event-schedule{
+	flex-direction: column;
+    align-items: center;
+    width: inherit;
+}
+.event-venue{
+	width: inherit;
+}
+.ceremony-details{
+	width: inherit;
+}
+}
+@media only screen and (max-width: 500px){
+
+img.width50Percent {
+    max-width: 100%;
+}
+
+.titles{
+	font-size: 3.5vw;
+}
+.parentMenu{
+	padding: 0;
+}
+.navShadowFixed{
+	padding: 0px 25%;
+}
+.peopleName{
+	font-size: 2.5vw;
+}
+.dummyText{
+	font-size: 0.5vw;
+}
+.event-title,.tab-content{
+	width: 100%;
+}
+.countText{
+	font-size: 6.5vw;
+}
+.wed-comsoon-counter > span{
+	font-size: 3.5vw;
+}
+.countdown > li p{
+	font-size: 3.5vw;
+}
+.countdown > li span{
+	font-size: 4.5vw;
+}
+
+}
+
+

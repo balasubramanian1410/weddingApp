@@ -1,0 +1,483 @@
+@media only screen and (max-device-width: 500px){
+
+
+.heartC{
+	text-align: center;
+	padding: 0px 0px !important;
+}
+.topDecor{
+	padding: 0px 0px;
+    margin-top: 15px;
+    height: inherit;
+	text-align: center;
+}
+.couple-name h1 {
+    font-weight: 100 !important;
+    font-size: 7.75vmin;
+	padding: 0px 0px;
+    animation-delay: 0.4s;
+    width: inherit;
+}
+
+.couple-name {
+    font-weight: 100 !important;
+    text-transform: capitalize;
+    line-height: 1.1;
+    color: #fff59d;
+    font-family: 'Great Vibes', cursive !important;
+    text-align: center;
+	padding: 0px 0px;
+    margin-left: 0px;
+    margin-top: 17px;
+}
+
+.couple-name span {
+    font-size: 60px;
+    padding: inherit;
+    margin: 0 auto;
+	float: none;
+    vertical-align: inherit;
+    width: inherit; 
+	right: inherit;
+    top: inherit; 
+    position: inherit
+}
+.topDecorBot {
+    padding: 0;
+    height: auto;
+    animation-delay: 0.6s;
+    text-align: center;
+}
+.dateAlling {
+    padding: 0px 55px;
+    top: auto;
+    position: static;
+}
+.line {
+    content: '';
+    display: block;
+    height: 1px;
+    top: 7px;
+    position: relative;
+    width: initial;
+    background-color: #fff59c;
+}
+.date {
+    margin: 0;
+    overflow: visible;
+    font-size: 3.375vmin;
+    padding: 0px 7px;
+    color: #fff49c;
+    text-align: center;
+	width: auto;
+}
+
+.separator.parallax, body>footer, section {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.home {
+    padding: 0;
+}
+
+.topDiv {
+    padding: 0;
+}
+.homeHeight {
+    height: 540px;
+}
+.centerDes {
+    position: relative;
+    top: -571px;
+    padding: 0px 36px;
+}
+
+#home:before{
+	top: 538px;
+    right: 43px;
+}
+
+.scroll-down {
+    position: absolute;
+    z-index: 3;
+    bottom: 3.09em;
+    left: 1.17em;
+    width: 25px;
+    height: 37px;
+    border-radius: 12.5px;
+    border: 2px solid #9B9B9B;
+    cursor: pointer;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.navShadow{
+	top: 565px;
+}
+
+.menu.collapse.in{
+	visibility: visible;
+}
+.parentMenu{
+	padding: 0px 14px;
+}
+.menu li{
+	width: 100%;
+	padding: 0;
+}
+.menu{
+	padding: 0;
+    margin: 0;
+}
+.navbar-toggle{
+	position: relative;
+    left: -28px;
+}
+.the-couple-title {
+    padding: 0;
+    border: 0;
+    text-align: center;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+}
+.couple-responsive-padding{
+	padding:0;
+}
+.combinedDiv{
+	padding:0;
+}
+#couple > div.col-xs-12 > div:nth-child(2) > div:nth-child(1) > div > div > div.the-couple-title > p{
+	margin-top: 0;
+}
+.combinedDiv > div{
+	padding: 0px 2px;
+    margin-top: 33px;
+}
+.the-couple-data h3{
+	font-size: 25px;
+}
+.the-couple-data > p{
+	font-size: 13px;
+	padding: 0px 18px;
+}
+.person-image{
+	padding: 0px 11px;
+}
+.the-couple-img{
+	padding:0;
+}
+.timeline{
+	padding:0;
+}
+.timeline-panel{
+	padding:0;
+	position: relative;
+    left: 12px;
+}
+.timeline > li{
+	width: 90%;
+    float: right;
+    clear: right;
+}
+.timeline:before{
+	left: 3%;
+	margin-bottom: -1831px;
+}
+.timeline > li > .timeline-badge{
+	right: 0px;
+    left: -40px;
+}
+.timeline-panel:before{
+	border-right: 0 solid #03c0cc;
+}
+.timeline > li > .timeline-panel:before{
+	position: absolute;
+    top: 26px;
+    right: -15px;
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #03c0cc;
+    border-right: 0 solid #03c0cc;
+    border-bottom: 15px solid transparent;
+    content: " ";
+	border-left-width: 0px;
+    border-right-width: 16px;
+	right: 268px;
+	
+}
+.timeline > li.timeline-inverted > .timeline-panel{
+	left: -13px;
+}
+.timeline > li.timeline-inverted{
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+li.timeline-inverted > div.timeline-panel:before{
+	position: absolute;
+    top: 26px;
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #03c0cc;
+    border-right: 0 solid #ef394d;
+    border-bottom: 15px solid transparent;
+    content: " ";
+    border-left-width: 0px;
+    border-right-width: 16px;
+    right: 268px !important;
+}
+.countDown > div.col-xs-12.topDiv > div {
+    min-height: 35.5em;
+}
+.countdown{
+	float:left;
+}
+.countdown > li{
+	width:100%;
+	margin-top: 16px;
+	background-color: white;
+}
+.countWidth{
+	padding: 0px 86px;
+	top: 39px;
+}
+.wed-comsoon-counter > span{
+	float: left;
+}
+
+.countdown > li::before {
+    background: #e0e0e0 none repeat scroll 0 0;
+    content: "";
+    width: 102px;
+    left: 0;
+    position: absolute;
+    top: 95%;
+    height: 1px;
+    left: 9px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 112px;
+}
+#loveline > div.col-xs-12.countDown > div.col-xs-12.topDiv.wow.zoomIn > div > div.col-xs-12.countHeartLine > span > i {
+    font-size: 28px;
+    color: #fff;
+    top: 10px;
+}
+.countHeartLine .titleSpan{
+	    bottom: -31px;
+}
+.countDown .flowers:after {
+    top: 40.8rem;
+}
+.bigPic{
+	margin-bottom: 21px;
+	width: 300px !important;
+    height: 300px !important;
+}
+#People > div > div:nth-child(2),#People > div > div:nth-child(3){
+	float: left;
+    width: 100%;
+	margin-top: 60px;
+}
+.peopleDetails{
+	width: 100%;
+    height: 100%;
+	margin-left: 0;
+}
+.peopleDetailsContainer{
+	padding: 17px 21px;
+    height: 100%;
+    width: 100%;
+    position: initial;
+    top: 80px;
+}
+.peopleDetailsContainer.default{
+	padding: 41px 21px;
+}
+.peopleDetailsContainer > .titles{
+	font-size: 38px;
+}
+#People > div > div.col-xs-12.dummyDiv{
+	    margin-bottom: 30px;
+}
+.bigPic > img {
+    margin-left: 0;
+    height: initial;
+}
+.familyCircle{
+	width: 47px;
+	height:47px;
+}
+.navSlick{
+	padding:0;
+}
+.circleText{
+	width: 47px;
+    height: 47px;
+	padding: 6px 3px;
+    line-height: 9px;
+	top: 0;
+}
+.slick-dots{
+	display:none !important;
+}
+.slick-prev, .slick-next{
+	color: rgb(221, 221, 221) !important;
+    background: rgb(221, 221, 221) !important;
+	border-radius: 50% !important;
+	height: 18px !important;
+	width: 18px !important;
+}
+.event-tabs{
+	padding:0;
+	height: 1676px;;
+}
+.event-title{
+	float:left;
+	width:100%;
+	min-height: 440px;
+}
+.event-tabs .tab-content{
+	margin-left: 0;
+	width: 100%;
+	background-color: #f1ebdf;
+	margin-left: 0;
+	position: relative;
+	top: 907px;
+}
+.event-venue{
+	margin-left: 0;
+	width: 100%;
+}
+.eventHeight {
+    height: 100%;
+}
+.ceremony-details{
+	margin-left: 0; 
+    top: -58px;
+	margin-top: 113px;
+}
+.event-play{
+	display:none;
+}
+section.bg-light-gray{
+	margin:0;
+	padding-bottom: 40px;
+}
+.rsvp {
+   padding:0px 31px;
+   margin-top: 30px;
+}
+.saveNames{
+	padding:0;
+}
+.saveHeight {
+    height: 350px;
+    position: relative;
+    top: -43px;
+}
+.saveHeight:after{
+	bottom: 0px;
+    right: 0px;
+}
+.saveHeight > a{
+	bottom: 0px;
+    right: 2.5vmin;
+}
+.homeDown{
+	top: -84px;
+    right: -5px;
+}
+.titles {
+	font-size: 44px;
+}
+.event-title > ul > li{
+	margin-bottom: 0;
+}
+.timeline i{
+	top: -8px;
+	left: 1px;
+}
+#couple > div.col-xs-12{
+	padding: 0px 3px;
+}
+.groomAllign{
+    margin-top: 0;
+}
+.peopleDetailsContainer > div:nth-child(3) {
+    font-size: 34px;
+}
+div.slider-for1.wow.bounceInLeft.slick-initialized.slick-slider > div > div > div:nth-child(5) > div > div.ReactFlipCard__Back > div > div > div > div:nth-child(3){
+	font-size: 24px;
+}
+div.slider-for1.wow.bounceInLeft.slick-initialized.slick-slider > div > div > div:nth-child(4) > div > div.ReactFlipCard__Back > div > div > div > div:nth-child(3){
+	font-size: 31px;
+    padding: 0px 23px;
+}
+div.slider-for1.wow.bounceInLeft.slick-initialized.slick-slider > div > div > div:nth-child(3) > div > div.ReactFlipCard__Back > div > div > div > div:nth-child(3){
+	font-size: 26px;
+    top: -5px;
+    position: relative;
+}
+div.slider-for1.wow.bounceInLeft.slick-initialized.slick-slider > div > div > div:nth-child(6) > div > div.ReactFlipCard__Back > div > div > div > div:nth-child(3){
+	font-size: 28px;
+}
+#couple{
+	padding-bottom: 75px;
+}	
+.flowers:after{
+	top: 39.4rem;
+}
+.audio-play {
+    top: -378px;
+    left: -11px;
+}
+.flowers:before {
+    top: 6.2rem;
+}
+#loveline > div.container-fluid.mTop229 > ul > li:nth-child(3) > div.timeline-panel.wow.bounceInLeft > div.timeline-heading > h3{
+	font-size: 35px;
+}
+#loveline > div.container-fluid.mTop229 > ul > li:nth-child(3) > div.timeline-panel.wow.bounceInLeft > div.timeline-body > p{
+	font-size: 15px;
+}
+#loveline > div.container-fluid.mTop229 > ul > li:nth-child(4) > div.timeline-panel > div.timeline-body > p{
+	font-size: 18px;
+}
+#page-top > div > iframe {
+    width: 91%;
+}
+.locationScreen {
+    left: 0;
+	top: -712px;
+}
+}
+}
+
+
+@media only screen and (max-width: 600px){
+	
+.timeline > li > .timeline-panel:before{
+	position: absolute;
+    margin-left: -13px;
+    left: 0;
+    display: block;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #03c0cc;
+    border-right: 0 solid #ef394d;
+    border-bottom: 15px solid transparent;
+    content: " ";
+    transform: rotateX(180);
+    transform: scaleX(-1);
+}
+body {
+        background-color: lightblue;
+    }
+	
+}
